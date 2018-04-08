@@ -1,0 +1,169 @@
+
+
+body {
+    background-color: #EFEFEF;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+/*******************/
+/***   DIV ID   ***/
+#divAll {
+            background-color: #EEEEEE;
+            float: left;
+            width: 90%;
+            min-width: 400px;
+            height: 90%;
+            margin-left: 5%;
+            margin-top: 20px;
+            min-height: 520px;
+            padding: 1%;
+        }
+
+#configDiv {
+            float: left;
+            width: 55%;
+            height: 90%;
+            margin-left: 1%;
+            margin-top: 20px;
+            min-height: 520px;
+            padding: 1%;
+            font-size: large;
+        }
+
+#summaryDiv {
+            color: #f3f3f3;
+            background-color: #333333;
+            float: right;
+            width: 25%;
+            height: 90%;
+            margin-right: 1%;
+            margin-top: 20px;
+            min-height: 520px;
+            border: 1px solid black;
+            padding: 1%;
+        }
+
+#summaryTitle {
+            width: 100%;
+            text-align: right;
+        }
+
+#summaryImg {
+            width: 100%;
+            height: 100%;
+}
+
+#configModelUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333333;*/
+}
+
+#configModelUl li {
+    float: left;
+    margin: 5px;
+    /*background-color: #BBBBBB;*/
+    padding: 4px;
+    min-width: 20%;
+    text-align: center;
+}
+
+
+#configEngineUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333333;*/
+}
+
+#configEngineUl li {
+    float: left;
+    margin: 5px;
+    /*background-color: #BBBBBB;*/
+    padding: 4px;
+    min-width: 20%;
+    text-align: center;
+}
+
+
+#configGearboxUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333333;*/
+}
+
+#configGearboxUl li {
+    float: left;
+    margin: 5px;
+    /*background-color: #BBBBBB;*/
+    padding: 4px;
+    min-width: 20%;
+    text-align: center;
+}
+
+
+#configColorUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333333;*/
+}
+
+#configColorUl li {
+    float: left;
+    margin: 5px;
+    /*background-color: #BBBBBB;*/
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+#summaryTable {
+    width: 100%;
+    margin-top: 5%
+}
+
+
+/*******************/
+/***   CLASS   ***/
+.selectedNone {
+    color: #2b2b2b;
+    background-color: #dfdfdf;
+    transition: transform 0.1s ease-in-out;
+    cursor: pointer;
+}
+.selectedNone:hover {
+    transform: scale(1.2);
+}
+.selectedYes {
+    color: #dfdfdf;
+    background-color: #2b2b2b;
+}
+
+.selectedNoneColor {
+    color: #2b2b2b;
+    background-color: #dfdfdf;
+    transform: scale(0.8);
+    transition: transform 0.1s ease-in-out;
+    cursor: pointer;
+}
+.selectedNoneColor:hover {
+    transform: scale(1.1);
+}
+.selectedYesColor {
+    color: #dfdfdf;
+    background-color: #2b2b2b;
+}
+.tableRight {
+    float: right;
+}

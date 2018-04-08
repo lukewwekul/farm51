@@ -1,0 +1,28 @@
+
+{
+    "model":[
+        { "id": 0, "name":"PRO RS3", "price":82500, "img":"car.png", "engine": [0, 1, 2, 3], "color": [0, 1, 2, 3] },
+        { "id": 1, "name":"UBER RS2", "price":74100, "img":"car.png", "engine": [1, 2, 3], "color": [0, 1, 2, 3] },
+        { "id": 2, "name":"STANDARD", "price":59100, "img":"car.png", "engine": [2, 3], "color": [0, 1, 2, 3] },
+        { "id": 3, "name":"WK", "price":42100, "img":"car.png", "engine": [3], "color": [0, 3] }
+    ],
+
+    "engine":[
+        { "id": 0, "name": "5.2L 532BHP", "price": 89500, "gearbox": [1] },
+        { "id": 1, "name": "4.2L 443BHP", "price": 71200, "gearbox": [0, 1] },
+        { "id": 2, "name": "3.6L 374BHP", "price": 53400, "gearbox": [0, 1] },
+        { "id": 3, "name": "2.0L 166BHP", "price": 42300, "gearbox": [0, 1] }
+    ],
+
+    "gearbox":[
+        { "id": 0, "name": "manual", "price": 5000 },
+        { "id": 1, "name": "auto", "price": 9000 }
+    ],
+
+    "color":[
+        { "id": 0, "name": "red", "hex": "#ff0000", "price": 0 },
+        { "id": 1, "name": "gray", "hex": "#d0d0d0", "price": 0 },
+        { "id": 2, "name": "brown", "hex": "#d88756", "price": 0 },
+        { "id": 3, "name": "dark", "hex": "#181818", "price": 0 }
+    ]
+}
